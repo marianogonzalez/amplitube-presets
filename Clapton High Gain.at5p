@@ -1,17 +1,17 @@
 <?xml version="1.0" ?>
-<Preset Version="2" Format="at5p" GUID="fd263b96-e748-441a-93c1-e6ea92b71af2" PresetBPM="120" ProgramChange="-1">
-    <Chain Preset="Chain11" MonoChainDualCab="0" DIBeforeAmp="0" />
+<Preset Version="2" Format="at5p" GUID="50235cdd-102d-4c42-a3dc-e91d80327f21" PresetBPM="120" ProgramChange="-1">
+    <Chain Preset="Chain11" DIBeforeAmp="0" />
     <Input Input="1" />
     <Tuner Bypass="1" Mute="0" OutputVolume="1" TunerType="9f50e7f1-b447-4c64-b428-50eebbe2c3bc">
         <Tuner Reference="440" NoteReferemce="A" Transpose="0" Temperament="Equal" />
     </Tuner>
-    <StompA1 Bypass="0" Mute="0" OutputVolume="1" Stomp0="590df33c-23a6-4d35-bd49-b5b589ffd248" Stomp1="5478981b-b18a-469f-81e7-a3e228cc9d50" Stomp2="be3bb897-6e7d-4d9a-ba58-8a034919dc3b" Stomp3="fa1de2e2-102b-4edf-b3b5-23ceaeddedf0" Stomp4="8d7ff76e-9273-46b6-95d5-3d7bd667fff2" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
+    <StompA1 Bypass="0" Mute="0" OutputVolume="1" Stomp0="590df33c-23a6-4d35-bd49-b5b589ffd248" Stomp1="be3bb897-6e7d-4d9a-ba58-8a034919dc3b" Stomp2="fa1de2e2-102b-4edf-b3b5-23ceaeddedf0" Stomp3="fd627f5e-ba11-4082-b546-a4f0b05985ff" Stomp4="67f25e2b-1c3f-40ff-9ad2-635d782416af" Stomp5="8d7ff76e-9273-46b6-95d5-3d7bd667fff2">
         <Slot0 Bypass="0" Threshold="0" Filter="3000" Release="1" />
-        <Slot1 Bypass="1" Comp="81.8025" Level="0.288232" />
-        <Slot2 Bypass="0" Drive="5.85011" Level="10" EqLo="4.99063" EqHi="4.82636" />
-        <Slot3 Bypass="0" Drive="2.74078" Level="9.84266" Tone="0" />
-        <Slot4 Bypass="0" Band100="0.707645" Band200="0.797846" Band400="0.639673" Band800="0.700436" Band1600="0.726131" Band3200="0.829991" Band6400="1" Level="1" />
-        <Slot5 />
+        <Slot1 Bypass="0" Drive="5.85011" Level="10" EqLo="4.99063" EqHi="4.82636" />
+        <Slot2 Bypass="1" Drive="1.01393" Level="9.84266" Tone="2.06404" />
+        <Slot3 Bypass="1" Drive="1.81252" Level="7.89062" Tone="1.51982" />
+        <Slot4 Bypass="1" Dist="0.886479" Level="7.23316" Tone="2.20519" />
+        <Slot5 Bypass="1" Band100="0.707645" Band200="0.797846" Band400="0.639673" Band800="0.700436" Band1600="0.726131" Band3200="0.829991" Band6400="1" Level="1" />
     </StompA1>
     <StompA2 Bypass="0" Mute="0" OutputVolume="1" Stomp0="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp1="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp2="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp3="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp4="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
         <Slot0 />
@@ -51,7 +51,7 @@
         <Slot5 />
     </StompB3>
     <AmpA Bypass="0" Mute="0" OutputVolume="1" Model="57c43635-a976-46e0-a5c1-ef843bbba616">
-        <Amp Mode_MarshallJVMSatriani="OD1" Clean_Mode_MarshallJVMSatriani="Red" Crunch_Mode_MarshallJVMSatriani="Green" OD1_Mode_MarshallJVMSatriani="Red" OD2_Mode_MarshallJVMSatriani="Red" Clean_Gate_MarshallJVMSatriani="5" Clean_Green_GateOn_MarshallJVMSatriani="0" Clean_Orange_GateOn_MarshallJVMSatriani="0" Clean_Red_GateOn_MarshallJVMSatriani="0" Clean_Volume_MarshallJVMSatriani="7.26562" Clean_Bass_MarshallJVMSatriani="3.90625" Clean_Middle_MarshallJVMSatriani="2.8125" Clean_Treble_MarshallJVMSatriani="2.8125" Clean_Gain_MarshallJVMSatriani="9.29688" Crunch_Gate_MarshallJVMSatriani="5" Crunch_Green_GateOn_MarshallJVMSatriani="0" Crunch_Orange_GateOn_MarshallJVMSatriani="0" Crunch_Red_GateOn_MarshallJVMSatriani="0" Crunch_Volume_MarshallJVMSatriani="4.14063" Crunch_Bass_MarshallJVMSatriani="6.32812" Crunch_Middle_MarshallJVMSatriani="1.95312" Crunch_Treble_MarshallJVMSatriani="2.1875" Crunch_Gain_MarshallJVMSatriani="6.79688" OD1_Gate_MarshallJVMSatriani="2" OD1_Green_GateOn_MarshallJVMSatriani="1" OD1_Orange_GateOn_MarshallJVMSatriani="1" OD1_Red_GateOn_MarshallJVMSatriani="0" OD1_Volume_MarshallJVMSatriani="8.51562" OD1_Bass_MarshallJVMSatriani="3.35938" OD1_Middle_MarshallJVMSatriani="3.28125" OD1_MidShift_MarshallJVMSatriani="0" OD1_Treble_MarshallJVMSatriani="0.857771" OD1_Gain_MarshallJVMSatriani="2.89667" OD2_Gate_MarshallJVMSatriani="2" OD2_Green_GateOn_MarshallJVMSatriani="1" OD2_Orange_GateOn_MarshallJVMSatriani="1" OD2_Red_GateOn_MarshallJVMSatriani="1" OD2_Volume_MarshallJVMSatriani="10" OD2_Bass_MarshallJVMSatriani="10" OD2_Middle_MarshallJVMSatriani="3.51562" OD2_MidShift_MarshallJVMSatriani="0" OD2_Treble_MarshallJVMSatriani="1.48438" OD2_Gain_MarshallJVMSatriani="10" Clean_MasterType_MarshallJVMSatriani="0" Crunch_MasterType_MarshallJVMSatriani="0" OD1_MasterType_MarshallJVMSatriani="0" OD2_MasterType_MarshallJVMSatriani="0" Master1_Volume_MarshallJVMSatriani="8.20312" Master1_Reso_MarshallJVMSatriani="4.14064" Master1_Presence_MarshallJVMSatriani="7.11265" Master2_Volume_MarshallJVMSatriani="5" Master2_Reso_MarshallJVMSatriani="5" Master2_Presence_MarshallJVMSatriani="5" />
+        <Amp Mode_MarshallJVMSatriani="OD1" Clean_Mode_MarshallJVMSatriani="Red" Crunch_Mode_MarshallJVMSatriani="Green" OD1_Mode_MarshallJVMSatriani="Red" OD2_Mode_MarshallJVMSatriani="Red" Clean_Gate_MarshallJVMSatriani="5" Clean_Green_GateOn_MarshallJVMSatriani="0" Clean_Orange_GateOn_MarshallJVMSatriani="0" Clean_Red_GateOn_MarshallJVMSatriani="0" Clean_Volume_MarshallJVMSatriani="7.26562" Clean_Bass_MarshallJVMSatriani="3.90625" Clean_Middle_MarshallJVMSatriani="2.8125" Clean_Treble_MarshallJVMSatriani="2.8125" Clean_Gain_MarshallJVMSatriani="9.29688" Crunch_Gate_MarshallJVMSatriani="5" Crunch_Green_GateOn_MarshallJVMSatriani="0" Crunch_Orange_GateOn_MarshallJVMSatriani="0" Crunch_Red_GateOn_MarshallJVMSatriani="0" Crunch_Volume_MarshallJVMSatriani="4.14063" Crunch_Bass_MarshallJVMSatriani="6.32812" Crunch_Middle_MarshallJVMSatriani="1.95312" Crunch_Treble_MarshallJVMSatriani="5.9674" Crunch_Gain_MarshallJVMSatriani="9.62107" OD1_Gate_MarshallJVMSatriani="2" OD1_Green_GateOn_MarshallJVMSatriani="1" OD1_Orange_GateOn_MarshallJVMSatriani="1" OD1_Red_GateOn_MarshallJVMSatriani="0" OD1_Volume_MarshallJVMSatriani="8.51562" OD1_Bass_MarshallJVMSatriani="3.35938" OD1_Middle_MarshallJVMSatriani="2.09481" OD1_MidShift_MarshallJVMSatriani="0" OD1_Treble_MarshallJVMSatriani="1.12132" OD1_Gain_MarshallJVMSatriani="2.89667" OD2_Gate_MarshallJVMSatriani="2" OD2_Green_GateOn_MarshallJVMSatriani="1" OD2_Orange_GateOn_MarshallJVMSatriani="1" OD2_Red_GateOn_MarshallJVMSatriani="1" OD2_Volume_MarshallJVMSatriani="10" OD2_Bass_MarshallJVMSatriani="10" OD2_Middle_MarshallJVMSatriani="3.51562" OD2_MidShift_MarshallJVMSatriani="0" OD2_Treble_MarshallJVMSatriani="1.48438" OD2_Gain_MarshallJVMSatriani="10" Clean_MasterType_MarshallJVMSatriani="0" Crunch_MasterType_MarshallJVMSatriani="0" OD1_MasterType_MarshallJVMSatriani="0" OD2_MasterType_MarshallJVMSatriani="0" Master1_Volume_MarshallJVMSatriani="8.20312" Master1_Reso_MarshallJVMSatriani="4.14064" Master1_Presence_MarshallJVMSatriani="3.49671" Master2_Volume_MarshallJVMSatriani="5" Master2_Reso_MarshallJVMSatriani="5" Master2_Presence_MarshallJVMSatriani="5" />
     </AmpA>
     <AmpB Bypass="0" Mute="0" OutputVolume="1" Model="8fe96936-5178-4950-9b80-d89c32534bad">
         <Amp Sensitivity_JCM800AT4="1" Presence_JCM800AT4="5" Bass_JCM800AT4="2.00812" Middle_JCM800AT4="5" Treble_JCM800AT4="7.24841" Master_JCM800AT4="5.5" PreAmp_JCM800AT4="5" />
@@ -104,8 +104,8 @@
         <Slot1 />
     </RackDI>
     <RackMaster Bypass="0" Mute="0" OutputVolume="1" Stomp0="9f1147a6-302f-48f3-a5bc-26cc5d399a8b" Stomp1="1189979a-db5d-4dc1-9228-7bd974d8a8c5" Stomp2="a8a839aa-35e1-4fac-8834-a0a1701c63d8" Stomp3="a8a839aa-35e1-4fac-8834-a0a1701c63d8" Stomp4="59ab0817-b168-4bdc-b837-e3cba1efb2dd" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
-        <Slot0 Bypass="0" BassGain="1.49624" BassFreq="152" BassQ="0.607097" MidGain="0.794185" MidFreq="1020" MidQ="0.3" HighGain="1.41254" HighFreq="4950" HighQ="0.2" Mode_ParametricEQ="Hi" OutLevel="1" />
-        <Slot1 Bypass="1" Mode="LR" DelayTime="166" Feedback="34.1476" Filter="4296.24" Mix="8.27533" OutLevel="1" BPMSync="1" BPMMeter="1/8t" />
+        <Slot0 Bypass="0" BassGain="1.49624" BassFreq="152" BassQ="0.607097" MidGain="0.794185" MidFreq="1020" MidQ="0.3" HighGain="1.41254" HighFreq="4950" HighQ="0.2" Mode_ParametricEQ="Low" OutLevel="1" />
+        <Slot1 Bypass="1" Mode="LR" DelayTime="333" Feedback="34.1476" Filter="4296.24" Mix="8.27533" OutLevel="1" BPMSync="1" BPMMeter="1/8t" />
         <Slot2 Bypass="0" EchoLevel="2.38053" Time="259.967" Feedback="3.45376" WowFilter="9.4375" Brightness="5.21875" RampStep="0" BPMSync="0" BPMMeter="1/4d" OutLevel="1.12202" />
         <Slot3 Bypass="0" EchoLevel="2.52763" Time="508.489" Feedback="3.45376" WowFilter="9.4375" Brightness="5.21875" RampStep="0" BPMSync="0" BPMMeter="1/4d" OutLevel="1.12202" />
         <Slot4 Bypass="0" DecayTime="4" Density="75" Color="2000" Mix="21.6297" OutLevel="1" />
