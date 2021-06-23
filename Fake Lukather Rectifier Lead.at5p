@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
-<Preset Version="2" Format="at5p" GUID="fb817cb7-b8ce-4225-9b93-6cc7501ca130" PresetBPM="120" ProgramChange="-1">
+<Preset Version="2" Format="at5p" GUID="eefe9efb-c0c7-403b-b8b8-e40101f749b3" PresetBPM="120" ProgramChange="-1">
     <Chain Preset="Chain11" DIBeforeAmp="0" />
     <Input Input="1" />
     <Tuner Bypass="1" Mute="0" OutputVolume="1" TunerType="9f50e7f1-b447-4c64-b428-50eebbe2c3bc">
         <Tuner Reference="440" NoteReferemce="A" Transpose="0" Temperament="Equal" />
     </Tuner>
-    <StompA1 Bypass="0" Mute="0" OutputVolume="1" Stomp0="590df33c-23a6-4d35-bd49-b5b589ffd248" Stomp1="f5edced9-6dfc-4851-8651-f81f5423d210" Stomp2="cee174c4-821c-4b92-8cb4-86c38c433668" Stomp3="fd627f5e-ba11-4082-b546-a4f0b05985ff" Stomp4="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
+    <StompA1 Bypass="0" Mute="0" OutputVolume="1" Stomp0="590df33c-23a6-4d35-bd49-b5b589ffd248" Stomp1="d0211742-18e6-4fdb-9efa-3d72e4ae515b" Stomp2="cee174c4-821c-4b92-8cb4-86c38c433668" Stomp3="fd627f5e-ba11-4082-b546-a4f0b05985ff" Stomp4="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
         <Slot0 Bypass="0" Threshold="0" Filter="3000" Release="1" />
-        <Slot1 Bypass="0" Switch="Off" />
+        <Slot1 Bypass="0" Drive="0.467134" Attack="47.0612" Release="724.824" Ratio="1.73069" OutLevel="1" />
         <Slot2 Bypass="0" ChorusLevel="6.69531" Rate="0.5" Depth="4.51562" AvgDelay="3.74219" Phase="7.89062" BPMSync="1" BPMMeter="1/2" OutLevel="1" />
         <Slot3 Bypass="0" Drive="3.50096" Level="4.98664" Tone="5.21264" />
         <Slot4 />
