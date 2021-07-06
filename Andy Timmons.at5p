@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<Preset Version="2" Format="at5p" GUID="8e4234ed-6737-4df3-a122-2528bbd563d9" PresetBPM="120" ProgramChange="-1">
+<Preset Version="2" Format="at5p" GUID="e06d3ccf-cf05-41e1-a6c0-93d72146e6ad" PresetBPM="120" ProgramChange="-1">
     <Chain Preset="Chain11" DIBeforeAmp="0" />
     <Input Input="1" />
     <Tuner Bypass="1" Mute="0" OutputVolume="1" TunerType="9f50e7f1-b447-4c64-b428-50eebbe2c3bc">
@@ -7,7 +7,7 @@
     </Tuner>
     <StompA1 Bypass="0" Mute="0" OutputVolume="1" Stomp0="590df33c-23a6-4d35-bd49-b5b589ffd248" Stomp1="d0211742-18e6-4fdb-9efa-3d72e4ae515b" Stomp2="be3bb897-6e7d-4d9a-ba58-8a034919dc3b" Stomp3="48e7b721-d57a-4c34-813b-95d8091d5eda" Stomp4="48e7b721-d57a-4c34-813b-95d8091d5eda" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
         <Slot0 Bypass="0" Threshold="0" Filter="3000" Release="1" />
-        <Slot1 Bypass="0" Drive="0.652379" Attack="25.7418" Release="295.289" Ratio="2.57907" OutLevel="1" />
+        <Slot1 Bypass="1" Drive="0.734374" Attack="25.5625" Release="206.357" Ratio="1.6781" OutLevel="1" />
         <Slot2 Bypass="0" Drive="5.85011" Level="10" EqLo="7.54891" EqHi="4.81171" />
         <Slot3 Bypass="1" Delay="243.33" Feedback="19.8851" Blend="30.7991" ChVib="30.4874" Mode="Chorus" BPMSync="0" BPMMeter="1/8d" />
         <Slot4 Bypass="1" Delay="500" Feedback="20.7992" Blend="27.4154" ChVib="30.4874" Mode="Vibrato" BPMSync="0" BPMMeter="1/4" />
@@ -103,13 +103,13 @@
         <Slot0 />
         <Slot1 />
     </RackDI>
-    <RackMaster Bypass="0" Mute="0" OutputVolume="1" Stomp0="9f1147a6-302f-48f3-a5bc-26cc5d399a8b" Stomp1="1189979a-db5d-4dc1-9228-7bd974d8a8c5" Stomp2="a8a839aa-35e1-4fac-8834-a0a1701c63d8" Stomp3="a8a839aa-35e1-4fac-8834-a0a1701c63d8" Stomp4="59ab0817-b168-4bdc-b837-e3cba1efb2dd" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
+    <RackMaster Bypass="0" Mute="0" OutputVolume="1" Stomp0="9f1147a6-302f-48f3-a5bc-26cc5d399a8b" Stomp1="1189979a-db5d-4dc1-9228-7bd974d8a8c5" Stomp2="1189979a-db5d-4dc1-9228-7bd974d8a8c5" Stomp3="a8a839aa-35e1-4fac-8834-a0a1701c63d8" Stomp4="a8a839aa-35e1-4fac-8834-a0a1701c63d8" Stomp5="59ab0817-b168-4bdc-b837-e3cba1efb2dd">
         <Slot0 Bypass="0" BassGain="1.49624" BassFreq="152" BassQ="0.607097" MidGain="0.794185" MidFreq="1020" MidQ="0.3" HighGain="1.41254" HighFreq="4950" HighQ="0.2" Mode_ParametricEQ="Hi" OutLevel="1" />
-        <Slot1 Bypass="1" Mode="LR" DelayTime="333" Feedback="34.1476" Filter="4296.24" Mix="8.27533" OutLevel="1" BPMSync="1" BPMMeter="1/8t" />
-        <Slot2 Bypass="0" EchoLevel="2.37744" Time="259.967" Feedback="3.45376" WowFilter="9.4375" Brightness="5.21875" RampStep="0" BPMSync="0" BPMMeter="1/4d" OutLevel="1.12202" />
-        <Slot3 Bypass="0" EchoLevel="2.52763" Time="508.489" Feedback="3.45376" WowFilter="9.4375" Brightness="5.21875" RampStep="0" BPMSync="0" BPMMeter="1/4d" OutLevel="1.12202" />
-        <Slot4 Bypass="0" DecayTime="4" Density="75" Color="2000" Mix="21.6297" OutLevel="1" />
-        <Slot5 />
+        <Slot1 Bypass="1" Mode="ST" DelayTime="260" Feedback="9.98088" Filter="4296.24" Mix="8.27533" OutLevel="1" BPMSync="0" BPMMeter="1/8t" />
+        <Slot2 Bypass="1" Mode="ST" DelayTime="508" Feedback="19.5314" Filter="4296.24" Mix="8.27533" OutLevel="1" BPMSync="0" BPMMeter="1/8t" />
+        <Slot3 Bypass="0" EchoLevel="2.37744" Time="259.967" Feedback="3.45376" WowFilter="9.4375" Brightness="5.21875" RampStep="0" BPMSync="0" BPMMeter="1/4d" OutLevel="1.12202" />
+        <Slot4 Bypass="0" EchoLevel="2.52763" Time="508.489" Feedback="3.45376" WowFilter="9.4375" Brightness="5.21875" RampStep="0" BPMSync="0" BPMMeter="1/4d" OutLevel="1.12202" />
+        <Slot5 Bypass="0" DecayTime="4" Density="75" Color="2000" Mix="21.6297" OutLevel="1" />
     </RackMaster>
     <Output Output="1" />
     <MidiAssignments />
